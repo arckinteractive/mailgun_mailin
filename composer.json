@@ -1,0 +1,22 @@
+{
+	"name": "arckinteractive/mailgun_mailin",
+	"description": "Turns inbound emails into new site content",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin", "notification", "email"],
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "ismayil@arckinteractive.com"
+		}
+	],
+	"license": "GPL-2.0",
+	"require": {
+		"composer/installers": "^1.0.8",
+		"arckinteractive/mailgun": "~2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Mailgun": "classes/Mailgun/"
+		}
+	}
+}
