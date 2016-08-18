@@ -26,11 +26,9 @@ elgg_register_plugin_hook_handler('mailin:types', 'mailgun', function($hook, $ty
 	$return['event'] = [
 		'handler' => 'my_mailin_event_parser',
 		'fields' => [
-			'fields' => [
-				'date',
-				'location',
-				'description',
-			],
+			'date',
+			'location',
+			'description',
 		],
 	];
 });
